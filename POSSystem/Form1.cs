@@ -42,5 +42,13 @@ namespace POSSystem
         {
             this.Close();
         }
+
+        private void btnCategory_Click(object sender, EventArgs e)
+        {
+            frmCategoryList frm = new frmCategoryList();
+            frm.TopLevel = false;
+            panel3.Controls.Add(frm);
+            frm.Show();
+        }
     }
 }

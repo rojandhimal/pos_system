@@ -87,7 +87,7 @@ namespace POSSystem
             try
             {
                 if (MessageBox.Show("Are you sure you want to save this brand?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                {
+                { 
                     cn.Open();
                     cm = new SqlCommand("UPDATE brand set brand = @brand WHERE id = @id", cn);
                     cm.Parameters.AddWithValue("@brand", txtBrand.Text);

@@ -118,3 +118,5 @@ E:\desktop application\POSSystem\POSSystem\bin\Debug\System.Text.Json.xml
 E:\desktop application\POSSystem\POSSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
 E:\desktop application\POSSystem\POSSystem\bin\Debug\System.ValueTuple.xml
 E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.csproj.CopyComplete
+E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmCategoryList.resources
+E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmCategory.resources
