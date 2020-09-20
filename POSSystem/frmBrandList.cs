@@ -55,7 +55,7 @@ namespace POSSystem
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             string collName = dataGridView2.Columns[e.ColumnIndex].Name;
-            if (collName == "Edit" && e.RowIndex>0)
+            if (collName == "Edit")
             {
                 formBrand frm = new formBrand(this);
                 frm.btnSave.Visible = false;
@@ -69,9 +69,9 @@ namespace POSSystem
                 
             }
 
-            if(collName == "Delete" && e.RowIndex > 0)
+            if(collName == "Delete")
             {
-                if (MessageBox.Show("Are you sure you want to save this brand?", "Delete Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Are you sure you want to delete this brand?", "Delete Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     cn.Open();
                     cm = new SqlCommand("DELETE FROM brand where id =@id", cn);

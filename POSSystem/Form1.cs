@@ -50,5 +50,14 @@ namespace POSSystem
             panel3.Controls.Add(frm);
             frm.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmProductList frm = new frmProductList();
+            frm.TopLevel = false;
+            panel3.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Show();
+        }
     }
 }

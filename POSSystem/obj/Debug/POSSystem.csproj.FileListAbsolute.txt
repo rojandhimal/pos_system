@@ -120,3 +120,5 @@ E:\desktop application\POSSystem\POSSystem\bin\Debug\System.ValueTuple.xml
 E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.csproj.CopyComplete
 E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmCategoryList.resources
 E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmCategory.resources
+E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmProduct.resources
+E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmProductList.resources
