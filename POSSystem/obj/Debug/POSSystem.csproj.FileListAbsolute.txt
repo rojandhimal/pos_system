@@ -122,3 +122,6 @@ E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmCategoryList.r
 E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmCategory.resources
 E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmProduct.resources
 E:\desktop application\POSSystem\POSSystem\obj\Debug\POSSystem.frmProductList.resources
+E:\desktop application\POSSystem\POSSystem\bin\Debug\MetroFramework.Design.dll
+E:\desktop application\POSSystem\POSSystem\bin\Debug\MetroFramework.dll
+E:\desktop application\POSSystem\POSSystem\bin\Debug\MetroFramework.Fonts.dll

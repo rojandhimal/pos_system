@@ -77,8 +77,8 @@ namespace POSSystem
                     cm.Parameters.AddWithValue("@id", id);
                     cm.ExecuteNonQuery();
                     cn.Close();
-                    LoadRecords();
                     MessageBox.Show("Category deleted sucessfully");
+                    LoadRecords();
 
                 }
             }
