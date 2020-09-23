@@ -83,13 +83,13 @@ namespace POSSystem
                 if (MessageBox.Show("Are you sure you want to delete this Product?", "Delete Category", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     cn.Open();
-                    cm = new SqlCommand("DELETE FROM category where id =@id", cn);
+                    cm = new SqlCommand("DELETE FROM product where id =@id", cn);
                     DataGridViewRow row = dataGridView2.Rows[e.RowIndex];
                     string id = row.Cells[1].Value.ToString();
                     cm.Parameters.AddWithValue("@id", id);
                     cm.ExecuteNonQuery();
                     cn.Close();
-                    MessageBox.Show("Category deleted sucessfully");
+                    MessageBox.Show("Product deleted sucessfully");
                     LoadRecords();
 
                 }
